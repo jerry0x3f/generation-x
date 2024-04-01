@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "generation-x"
+version = "0.1.0"
+description = ""
+authors = ["jerzy.mizgiert <jerzy.mizgiert@native-instruments.de>"]
+readme = "README.md"
+packages = [{include = "generation_x", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mido = "^1.3.2"
+python-rtmidi = "^1.5.8"
+pydantic = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
