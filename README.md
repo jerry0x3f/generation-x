@@ -10,10 +10,10 @@ I am attaching here music I created with such a mindset. The outcome resonates w
 
 ## Requirements and setup
 
-Python 3.11.3
-Poetry
-rtmidi
-Pydantic
+* Python 3.11.3
+* Poetry
+* rtmidi
+* Pydantic
 
 ```python
 poetry install
@@ -72,7 +72,9 @@ Playing with mute button for enabling / disabling sequences as a function for ar
 
 ## TODO
 
+* command line arguments with optional interactive questionnaire for initial settings
 * randomization for every possible parameter
 * exposing control with dice to every parameter, not only notes generation 
+* computer keyboard support if no Machine Jam connected
 * not a clean code ;)
 * docs and tests!
