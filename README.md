@@ -85,6 +85,6 @@ Playing with mute button for enabling / disabling sequences as a function for ar
 
 Please check above playlist of music generated with this project.
 
-<img src="./docs/soundcloud-playlist-preview.png" width="200">
+<img src="./docs/soundcloud-cover.png" width="300">
 
 [Soundcloud playlist](https://soundcloud.com/blackcookies/sets/gen-x-elektron-model-cycles-machine-jam/s-0gnUamTzWvK?si=8ac50d5e9e704ffdbaef6674c52b6341&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
