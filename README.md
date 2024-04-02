@@ -8,18 +8,20 @@ In presenting the music created through this paradigm, I find satisfaction in th
 
 # Software
 
-## Requirements and setup
+## Installation
+
+### Requirements
 
 * Python 3.11.3
 * Poetry
-* rtmidi
-* Pydantic
+
+### Setup
 
 ```python
 poetry install
 ```
 
-Run:
+### Run
 ```shell
 poetry run python src/generation_x/__init__.py
 ```
@@ -61,11 +63,6 @@ where:
     """
 ```
 
-## Performance
-
-Run software with initial settings and focus on sound processing with usage of the external guitar effects.
-Playing with mute button for enabling / disabling sequences as a function for arrangement as well as dice function for melody changes.  
-
 ## Known issues
 
 * every sequence has his own thread, all are weakly synchronized, can be perceived as another chaotic parameter to the general technique but is problematic for rhythm based compositions
@@ -78,6 +75,11 @@ Playing with mute button for enabling / disabling sequences as a function for ar
 * computer keyboard support if no Machine Jam connected
 * not a clean code ;)
 * docs and tests!
+
+# Performance
+
+Run software with initial settings and focus on sound processing with usage of the external guitar effects.
+Playing with mute button for enabling / disabling sequences as a function for arrangement as well as dice function for melody changes.  
 
 # Outcome
 
