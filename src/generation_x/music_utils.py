@@ -261,7 +261,7 @@ def generate_arpeggio(root_note: str, music_scale: MusicScale, mode="3th up", to
     if direction == 'up':
         all_midi_octaves_in_scale.reverse()
 
-    print(f'{scale_notes} -> {mode_offset}th -> {direction} from {closes_note_down} -> {total_notes} notes starting '
+    print(f'Arpeggio: {scale_notes} -> {mode_offset}th -> {direction} from {closes_note_down} -> {total_notes} notes starting '
           f'in octave {root_octave}')
 
     root_note_idx = None

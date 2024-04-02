@@ -41,18 +41,11 @@ base_tempo = 10
 
 sequences_config = [
     f'a|3|6|4|{base_tempo}|3th down|c|8/16',
-    f'a|3|5|6|{int(base_tempo/2)}|3th down|c|8/16',
-    f'a|3|6|4|{int(base_tempo/4)}|3th up|c|12/16',
-    f'a|3|5:-1.1|2:-1.1|{base_tempo}|3th|d|7/8',
-    f'a|2|3|2:-1.1|{base_tempo}|3th down|f|6/8',
-    f'a|2|2|2:-1.1|{base_tempo}|2th down|g|4/4',
-    # f'a|3|3:-1.1|2:-1.1|{base_tempo}|2th|c|1/4',
-    # f'r|3|3|{int(base_tempo/2)}|80|3/4',
-    # f'r|2|3|{int(base_tempo)}|80|6/8',
-    # f'r|3|4|{int(base_tempo/2)}|70|6/8',
-    # f'r|3|3|{base_tempo}:-10.10|70|5/4',
-    # f'r|3|4|{base_tempo}:-10.10|80|4/4',
-    # f'r|1|3|{base_tempo+10}:-10.10|80|13/8',
+    f'a|3|5|6|{int(base_tempo/2)}|3th down|d|8/16',
+    f'a|3|6|4|{int(base_tempo/4)}|5th up|f|12/16',
+    f'r|3|3|{base_tempo}:-10.10|70|5/4',
+    f'r|3|4|{base_tempo}:-10.10|80|4/4',
+    f'r|1|3|{base_tempo+10}:-10.10|80|13/8',
 ]
 
 music_scale = MusicScale(scale=MusicScaleType.NATURAL_MINOR, tonic='c')
@@ -85,11 +78,11 @@ for seq_cfg in sequences_config_params:
             (
                 arp_tempo,
                 generate_arpeggio_in_tempo(
-                    root_note='g',
+                    root_note=seq_cfg['start_note'],
                     music_scale=music_scale,
                     tempo_and_meter=arp_tempo,
                     bars=seq_cfg['bars_length_fn'](),
-                    mode="3th",
+                    mode=seq_cfg['mode'],
                     total_notes=seq_cfg['total_notes_fn'](),
                     root_octave=seq_cfg['root_octave_fn'](),
                 )
