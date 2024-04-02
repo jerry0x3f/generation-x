@@ -1,12 +1,12 @@
-# Abstract
+# Concept
 
-The concept of chaos theory, experimentation, constraints, and repetitions intertwine as fundamental tools in the realm of generative music. Many artists adhere to the belief that within music created using such methods, every listener can uncover patterns, rhythms, and melodies. Music emerges from experiences, sometimes beyond our control, weaving together moments into a cohesive whole. From the ambient noise that surrounds us to the sporadic tones that arise, these elements can be harnessed and looped, incorporating basic music theory principles. Pioneers like Brian Eno famously crafted compositions by manipulating tape loops, cutting them randomly with scissors, and playing them back from various starting points and times. The addition of sound effects to these looped tracks or to the overall mix opens up further avenues of exploration.
+The integration of chaos theory, experimentation, constraints, and repetitions represents a profound approach in artistic creation, particularly within the realm of music composition. This approach posits that listeners possess the innate ability to discern patterns, rhythms, and melodies within music generated through such methods, thereby emphasizing the subjective interpretation of auditory experiences. Composers employ generative techniques to simulate the spontaneous and unpredictable nature of our surroundings, utilizing random elements and looping them within the framework of basic music theory. This methodology echoes the techniques pioneered by influential artists like Brian Eno, who crafted compositions from disparate tape loops, randomly spliced and played back at varying intervals. Moreover, the application of sound effects further enriches the creative palette, offering a diverse array of sonic possibilities.
 
-With algorithmically generated music serving as a foundation, the application of controlled randomness, guided by the artist and further manipulated through simulation, creates fertile ground for composers to engage in live sound processing. This process allows them to infuse their creations with personal flair and color, stemming from the inherently unpredictable nature of the source material. Through iterative experimentation, rhythms and patterns gradually emerge, paving the way for composition.
+By leveraging algorithmic processes with customizable levels of randomization, composers cultivate a fertile ground for exploration and experimentation. This iterative approach encourages live sound processing, allowing for the infusion of personal expression and individual style. As composers immerse themselves in this dynamic interplay between chance and intention, they uncover rhythmic motifs and melodic structures that resonate with their creative vision. Ultimately, algorithmic music serves as a powerful tool for artistic expression, challenging conventional notions of authorship and creativity.
 
-Algorithmic music is not merely a tool; it is a gateway to artistic expression. Embracing randomness as a catalyst for creativity, composers are empowered to explore uncharted sonic territories, shaping unique auditory experiences. Ultimately, there is no inherent limitation to the use of algorithmic methods in music creation—it is simply another avenue for innovation and expression.
+In presenting the music created through this paradigm, I find satisfaction in the outcome, underscoring the potential of these techniques to inspire new avenues of artistic exploration. I posit that further inquiry into similar methodologies, particularly within the burgeoning field of artificial intelligence, holds promise for expanding the horizons of artistic innovation and providing alternative pathways for creative expression.
 
-I am attaching here music I created with such a mindset. The outcome resonates with me, reaffirming my belief in the power of these methodologies. I am convinced that further exploration of similar techniques, particularly within the domain of artificial intelligence, holds immense potential to revolutionize the way artists express their creativity.
+# Software
 
 ## Requirements and setup
 
@@ -78,3 +78,11 @@ Playing with mute button for enabling / disabling sequences as a function for ar
 * computer keyboard support if no Machine Jam connected
 * not a clean code ;)
 * docs and tests!
+
+# Outcome
+
+Please check above playlist of music generated with this project.
+
+<img src="./docs/soundcloud-playlist-preview.png" width="200">
+
+[Soundcloud playlist](https://soundcloud.com/blackcookies/sets/gen-x-elektron-model-cycles-machine-jam/s-0gnUamTzWvK?si=8ac50d5e9e704ffdbaef6674c52b6341&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
