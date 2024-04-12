@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Optional
+from typing import Optional, List, Tuple
 
 from pydantic import BaseModel
 
@@ -75,3 +75,12 @@ class MusicScaleType(Enum):
 class MusicScale(BaseModel):
     tonic: str = 'c'
     scale: MusicScaleType = MusicScaleType.MAJOR
+
+
+class RunSettings(BaseModel):
+    sequencers: list
+    sequence_play: bool
+    quantize_to_scale: Optional[MusicScale]
+    music_scale: MusicScale
+    sequences_config_params: List[dict]
+    generated_sequences: List[Tuple[TempoAndMeter, List[List[NoteLength]]]]

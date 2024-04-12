@@ -1,6 +1,6 @@
 from typing import Optional
 
-from models import Note, NoteLength
+from models import NoteLength
 
 
 class NoteGenerator:

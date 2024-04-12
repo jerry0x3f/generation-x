@@ -314,7 +314,7 @@ def generate_random_melody(
         tempo_and_meter: TempoAndMeter = TempoAndMeter(),
         pause_fn=lambda: random.randint(0, 1) == 0,
         velocity_fn=lambda n, t: get_random_velocity(n, t)
-):
+) -> List[List[NoteLength]]:
     """
     Generates random melody in a given scale starting in specified octave.
     Note generated from the scale with: random.randint(0, len(scale_notes) - 1)
