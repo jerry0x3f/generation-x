@@ -26,6 +26,24 @@ poetry install
 poetry run python src/generation_x
 ```
 
+#### Usage
+```text
+usage: Generation-X [-h] [-mst {c,c#,d,d#,e,f,f#,g,g#,a,a#,b}] [-mss {major,minor,harmonic_minor,melodic_minor}] [-t 10-300] [-r 0-100]
+
+Symbolic music data generator for Elektron Model:Cycles and Maschine Jam
+
+options:
+  -h, --help            show this help message and exit
+  -mst {c,c#,d,d#,e,f,f#,g,g#,a,a#,b}, --music_scale_tonic {c,c#,d,d#,e,f,f#,g,g#,a,a#,b}
+                        Music scale tonic
+  -mss {major,minor,harmonic_minor,melodic_minor}, --music_scale_type {major,minor,harmonic_minor,melodic_minor}
+                        Music scale type
+  -t 10-300, --tempo_bpm 10-300
+                        Main tempo from which different sequences will be generated. Sequences can be generated with different tempos based on this value.
+  -r 0-100, --rest_factor 0-100
+                        Rest probability factor for random type generated sequences
+```
+
 ## Diagram
 
 (random walk &/| random arpeggios * 6->> elektron cycles <-> display on machine jam with some dice and mute control)
