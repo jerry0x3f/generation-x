@@ -23,7 +23,7 @@ poetry install
 
 ### Run
 ```shell
-poetry run python src/generation_x/__init__.py
+poetry run python src/generation_x
 ```
 
 ## Diagram

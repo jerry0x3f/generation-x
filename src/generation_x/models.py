@@ -71,6 +71,10 @@ class MusicScaleType(Enum):
     HARMONIC_MINOR = 'harmonic_minor'
     MELODIC_MINOR = 'melodic_minor'
 
+    @staticmethod
+    def all_values() -> List[str]:
+        return [e.value for e in MusicScaleType]
+
 
 class MusicScale(BaseModel):
     tonic: str = 'c'

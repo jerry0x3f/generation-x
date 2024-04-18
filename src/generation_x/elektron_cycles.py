@@ -6,7 +6,7 @@ _elektron_outport = None
 try:
     _elektron_outport = mido.open_output(output_device)
 except Exception as e:
-    print(f'Could not open MIDI port')
+    print(f'warn: could not open {output_device} MIDI output port!')
     elektron_outport = None
 
 

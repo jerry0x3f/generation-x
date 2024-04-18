@@ -30,7 +30,7 @@ try:
     _outport_jam = mido.open_output('Maschine Jam - 1 Output')
 except Exception:
     _outport_jam = None
-    print('No Machine JAM for controlling connected!')
+    print(f'warn: could not open Maschine Jam - 1 Output MIDI output port!')
 
 
 def get_outport_jam():
